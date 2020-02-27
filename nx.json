@@ -1,0 +1,22 @@
+{
+  "npmScope": "bot-framework-web-chat-npm",
+  "implicitDependencies": {
+    "workspace.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "bot": {
+      "tags": []
+    },
+    "bot-e2e": {
+      "tags": [],
+      "implicitDependencies": ["bot"]
+    }
+  }
+}
