@@ -27,9 +27,11 @@
   },
   "private": true,
   "dependencies": {
+    "botframework-webchat": "^4.7.1",
     "document-register-element": "1.13.1",
     "react": "16.12.0",
-    "react-dom": "16.12.0"
+    "react-dom": "16.12.0",
+    "rxjs": "^6.5.4"
   },
   "devDependencies": {
     "@nrwl/workspace": "9.0.4",
